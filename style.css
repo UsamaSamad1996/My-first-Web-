@@ -142,22 +142,27 @@ div #bio{
     max-width: 100%;
     width: 400px;
     border-radius: 5px;
-    animation-name: drop1;
-    animation-duration: 1s;
+    animation: drop1 1s 3s forwards,
+                swing 2s 5s forwards ease-in-out;
+    /* animation-duration: 1s;
     animation-delay: 3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
     margin: 10px auto;
     top: -1000px;
     position: relative;
+    transform-origin: 10px 10px;
 }
 @keyframes drop1{
     0%{}
     40%{transform: translateY(1150px);}
     70%{transform: translateY(990px);}
     100%{transform: translateY(1010px);}
-
-    /*from{ transform: translate(0);}
-    to{ transform: translate(966px);}*/
+}
+@keyframes swing{
+    0%{transform: translateY(1010px) rotateZ(0deg);}
+    30%{transform: translateY(1010px) rotateZ(100deg);}
+    70%{transform: translateY(1010px) rotateZ(-30deg);}
+    100%{transform: translateY(1010px) rotateZ(0deg);}
 }
 @keyframes drive2{
     from{ transform: translate(0);}
@@ -183,8 +188,8 @@ div #bio{
     margin-left: -600px;
     border-radius: 5px;
     animation-name: drive2;
-    animation-duration: 2s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
 }
 span.age{
@@ -208,11 +213,15 @@ span.age{
     width: 550px;
     margin-left: -600px;
     border-radius: 5px;
-    animation-name: drive2;
-    animation-duration: 2s;
-    animation-delay: 3s;
+    animation-name: drive1;
+    animation-duration: 1s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
+}@keyframes drive1{
+    from{transform: translateX(1600px);}
+    to{transform: translateX(992px);}
 }
+
 #larka{
     margin-left: 20px;
 }
@@ -249,27 +258,27 @@ select#qualification, #profession{
     border-radius: 5px;
 }
 @keyframes drive3{
-    from{ transform: translate(0);}
-    to{transform: translate(400px);}
+    from{ transform: translate(1750px);}
+    to{transform: translate(1000px);}
 }
 @keyframes drive4{
-    from{ transform: translate(0);}
-    to{transform: translate(740px);}
+    from{ transform: translate(-500px);}
+    to{transform: translate(1340px);}
 }
 #qualification{
     /* float: right; */
-    margin-left: 0px;
+    margin-left: -600px;
     animation-name: drive3;
-    animation-duration: 2s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
 }
 #profession{
     /* float: left; */
-    margin-left: 0px;
+    margin-left: -600px;
     animation-name: drive4;
-    animation-duration: 2s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
 }
 .dropdown select{
