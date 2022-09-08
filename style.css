@@ -56,10 +56,10 @@ div h2.registration,.about,.home,.contact{
     outline-width: 2px;
     max-width: 100%;
     width: 75%;
-    transition: transform 0.5s 1s, font 0.5s 1s;
+    transition: transform 0.5s 1s, font 0.5s;
 }
 h2.registration:hover,.about:hover, .contact:hover, .home:hover{
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
     font-size: 40px;
 }
 /*hr{
@@ -114,7 +114,7 @@ div #bio{
     padding-bottom: 6px;
     font-size: 23px;
     text-align: center;
-    margin: 0px;
+    margin-left: -500px;
     max-width: 100%;
     width: 200px;
     display: block;
@@ -126,7 +126,7 @@ div #bio{
 }
 @keyframes drive5{
     from{ transform: translate(0);}
-    to{transform: translate(563px);}
+    to{transform: translate(1063px);}
 }
 .formportal{
     background-color: aliceblue;
@@ -149,14 +149,15 @@ div #bio{
     animation-delay: 3s;
     animation-fill-mode: forwards;
     /* top: 100px; */
+    margin-left: -500px;
 }
 @keyframes drive1{
     from{ transform: translate(0);}
-    to{ transform: translate(466px);}
+    to{ transform: translate(966px);}
 }
 @keyframes drive2{
     from{ transform: translate(0);}
-    to{ transform: translate(392px);}
+    to{ transform: translate(992px);}
 }
 #username, #email, #phone, #password{
     margin-left: 2px;
@@ -175,7 +176,7 @@ div #bio{
     text-align: center;
     max-width: 100%;
     width: 550px;
-    margin: 0;
+    margin-left: -600px;
     border-radius: 5px;
     animation-name: drive2;
     animation-duration: 2s;
@@ -201,7 +202,7 @@ span.age{
     text-align: center;
     max-width: 100%;
     width: 550px;
-    margin: 0;
+    margin-left: -600px;
     border-radius: 5px;
     animation-name: drive2;
     animation-duration: 2s;
