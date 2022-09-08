@@ -1,0 +1,344 @@
+.form, .aboutpage, .homepage, .contactpage{    
+        background-size: 678px 1082px, /*1356px 450px,*/ 678px 1082px;
+        background-repeat: no-repeat;
+        background-image: url('imghtml/290818308_599799061504575_3774921928607738439_n.jpg'), /*url('imghtml/TimelineCovers.pro_fitness-and-tattoo-facebook-cover.jpg'),8*/ url('./imghtml/a293a2af49ff462679e2aa79b19e2fd8.jpg');
+        background-position: bottom left, bottom right;
+        background-color: black;
+        /* background-attachment: local; */
+}
+.coverimg{
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    margin: 60px 0px 0px -5px;
+    border: 1px solid red;
+    outline: 2px groove #04046f;
+
+}
+header h1.title{
+    background-color: red;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #04046f;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    width: 99%;
+    top: 0;
+    left: 0;
+    margin-top: 1px;
+    display: inline-block;
+    z-index: 1;
+    outline-style: solid;
+    outline-color: #04046f;
+    outline-width: 1px;
+    text-shadow: 3px 3px #04046f;
+}
+span.marvel{
+    font-size: 1.3em;
+}
+div h2.registration,.about,.home,.contact{
+    background-color: black;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 6px;
+    border-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin: 60px auto 0px auto;
+    outline-style: groove;
+    outline-color: #04046f;
+    outline-width: 2px;
+    max-width: 100%;
+    width: 75%;
+    transition: transform 0.5s 1s, font 0.5s 1s;
+}
+h2.registration:hover,.about:hover, .contact:hover, .home:hover{
+    transform: rotate(360deg);
+    font-size: 40px;
+}
+/*hr{
+    border: 3px groove #04046f;
+    background-color: red;
+    width: 102%;
+    max-width: 100%;
+    left: 0;
+}*/
+.credentials{
+    margin: 20px auto 20px auto;
+    background-color: black;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 6px;
+    border-color: red;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 100%;
+    width: 650px;
+    outline: 3px groove #04046f;
+}
+div #bio{
+    background-color: black;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 6px;
+    border-color: red;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    max-width: 100%;
+    width: 400px;
+    display: block;
+    outline: 3px groove #04046f;
+    animation-name: drive1;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+#dateofbirth{
+    background-color: aliceblue;
+    color: black;
+    border-style: groove;
+    border-width: 4px;
+    border-color: red;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 23px;
+    text-align: center;
+    margin: 0px;
+    max-width: 100%;
+    width: 200px;
+    display: block;
+    border-radius: 5px;
+    animation-name: drive5;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes drive5{
+    from{ transform: translate(0);}
+    to{transform: translate(563px);}
+}
+.formportal{
+    background-color: aliceblue;
+    color: red;
+    border-style: groove;
+    border-color: red;
+    border-width: 3px;
+    font-size: large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    width: 400px;
+    /* margin: 10px auto auto auto; */
+    border-radius: 5px;
+    /* position: absolute; */
+    animation-name: drive1;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    /* top: 100px; */
+}
+@keyframes drive1{
+    from{ transform: translate(0);}
+    to{ transform: translate(466px);}
+}
+@keyframes drive2{
+    from{ transform: translate(0);}
+    to{ transform: translate(392px);}
+}
+#username, #email, #phone, #password{
+    margin-left: 2px;
+}
+
+.ageportal{
+    background-color: aliceblue;
+    color: red;
+    border-style: groove;
+    border-color:red;
+    border-width: 3px;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    width: 550px;
+    margin: 0;
+    border-radius: 5px;
+    animation-name: drive2;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+span.age{
+    font-size: 25px;
+}
+#silverage{
+    margin-left: 20px;
+}
+.genderportal{
+    background-color: aliceblue;
+    color: red;
+    border-style: groove;
+    border-color: red;
+    border-width: 3px;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    width: 550px;
+    margin: 0;
+    border-radius: 5px;
+    animation-name: drive2;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+#larka{
+    margin-left: 20px;
+}
+/*select#profession{
+    background-color: aliceblue;
+    color: red;
+    border-style: groove;
+    border-color: red;
+    border-width: 6px;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    width: 200px;
+    margin-left: 400px;
+    display: inline-block;
+}*/
+select#qualification, #profession{
+    background-color: aliceblue;
+    color: red;
+    border-style: groove;
+    border-color: red;
+    border-width: 4px;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    width: 200px;
+    /* display: inline-block; */
+    border-radius: 5px;
+}
+@keyframes drive3{
+    from{ transform: translate(0);}
+    to{transform: translate(400px);}
+}
+@keyframes drive4{
+    from{ transform: translate(0);}
+    to{transform: translate(740px);}
+}
+#qualification{
+    /* float: right; */
+    margin-left: 0px;
+    animation-name: drive3;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+#profession{
+    /* float: left; */
+    margin-left: 0px;
+    animation-name: drive4;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+.dropdown select{
+    display: inline-block;
+    position: absolute;
+}
+/* .dropdown{
+    white-space: nowrap;
+}*/
+.submit{
+    background-color: red;
+    color: aliceblue;
+    border-style: groove;
+    border-color: black;
+    border-width: 6px;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    width: 150px;
+    margin: auto;
+    outline: 3px groove #04046f;
+}
+nav.navbar{
+    float: left;
+    width: 100.5%;
+    background-color: aliceblue;
+    margin-top: 4px;
+    position: sticky;
+    left: 0;
+    top: 76px;
+    z-index: 1;
+    white-space: nowrap;
+    margin-left: -10px;
+}
+
+nav a:link, a:visited{
+    color: red;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+    font-size: larger;
+    display: inline-block;
+    font-weight: bold;  
+}
+a:hover, a:active{
+    background-color: #363535;
+}
+main p{
+    background-color: black;
+    column-count: 2;
+    color: aliceblue;
+    padding: 40px;
+    margin: 0px 40px 0px 40px;
+    opacity: 0.9;
+    word-spacing: 3px;
+}
+main h1{
+    color: aliceblue;
+    margin: 40px 0px 0px 40px;
+    width: 92%;
+    background-color: red;
+    padding: 10px;
+    text-shadow: 2px 2px #04046f;
+}
+main h2{
+    color: aliceblue;
+    margin: 40px 0px 0px 40px;
+    width: 92.5%;
+    background-color: red;
+    padding: 15px;
+    text-shadow: 2px 2px #04046f;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Fitness & Health CLub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="form">
+    <header>
+        <h1 class="title"> <span class="marvel"> MARVEL </span> Health & Fitness Club</h1>
+    </header>
+            <br>
+    <main>
+        <img class="coverimg" src="./imghtml/cover.jpg" alt="coverimg">
+    </main>
+
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html"> ABOUT</a>
+        <a href="form.html"> REGISTRATION</a>
+        <a href="contact.html"> CONTACT</a>
+    </nav>
+        <br>
+    <div>
+        <h2 class="registration"> REGISTRATION FORM</h2>
+    </div>
+    <br>
+    <!-- <hr> -->
+    <div>
+        <form>
+            <div class="formportal">
+                <label for="username"> Username : </label>
+                <input type="text" id="username" placeholder="enter username" required>
+                    <br><br>
+                <label for="email"> Email : </label>
+                <input type="email" id="email" placeholder="enter your email"required>
+                    <br><br>
+                <label for="phone"> Phone No. :</label>
+                <input type="number" id="phone" placeholder="enter phone number"required>
+                    <br><br>
+                <label for="password"> Password :</label>
+                <input type="password" id="password" placeholder="enter password"required>
+            </div>
+                            <br> <br>
+            <!--<div><h3 class="ageheading">AGE</h3></div>-->
+                <div class="ageportal"> <span class="age"> Your Age :</span>
+                    <input type="radio" name="age" value="0-25" id="silverage">
+                    <label for="silverage"> 0-25</label>
+                    
+                    <input type="radio" name="age" value="25-50" id="goldage">
+                    <label for="goldage"> 25-50 </label>
+                    
+                    <input type="radio" name="age" value="50-75" id="platiniumage">
+                    <label for="platiniumage"> 50-75</label>
+                    
+                    <input type="radio" name="age" value="all of above" id="lifetime">
+                    <label for="lifetime"> All of above</label>
+                </div>
+                                <br> <br>
+           <!--<div><p class="genderheading"><h3>Gender</h3></p></div>-->
+                <div class="genderportal"><span class="age"> Your Gender :</span>
+                    <input type="radio" name="Gender" value="Male" id="larka">
+                    <label for="larka"> Male</label>
+                        
+                    <input type="radio" name="Gender" value="Female" id="larki">
+                    <label for="larki"> Female </label>
+                        
+                    <input type="radio" name="Gender" value="Transgendre" id="khusra">
+                    <label for="khusra"> Transgender</label>
+                </div>
+                            <br>
+
+            <div><h3 class="credentials">CREDENTIALS</h3></div>
+            <br>
+            <div class="dropdown">
+                    <select name="profession" id="profession">
+                        <option value="none" selected disabled hidden>Select Profession</option>
+                        <option value="p1">Doctor</option>
+                        <option value="p2">Engineer</option>
+                        <option value="p3">Teacher</option>
+                        <option value="p4">Business</option>
+                    </select>
+                    <select name="Qualification" id="qualification">
+                        <option value="none" selected disabled hidden>Your Qualification</option>
+                        <option value="q1">Matric</option>
+                        <option value="q2">Intermediate</option>
+                        <option value="q3">UnderGraduate</option>
+                        <option value="q4">Graduate</option>
+                        <option value="q5">Masters</option>
+                        <option value="q6">PHD</option>
+                    </select>
+            </div>
+                                    <br>
+                                    <br>
+                <div>
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us about You & Your Skills"></textarea>
+                </div>
+                                    <br>
+
+                <div>
+                    <input type="date" name="date" id="dateofbirth">
+                </div>
+                                    <br>
+                                    <br>
+                <div>
+                    <input class="submit" type="submit" value="Submit Form">
+                </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
